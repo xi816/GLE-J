@@ -64,6 +64,10 @@ def run(code):
         elif (ch == "+"):
             stack[-2] += stack[-1]
             stack.pop()
+        elif (ch == "↑"):
+            stack[-1] += 1
+        elif (ch == "↓"):
+            stack[-1] -= 1
         elif (ch == "_"):
             stack[-2] -= stack[-1]
             stack.pop()
