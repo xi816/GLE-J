@@ -1,0 +1,7 @@
+"Enter first number: ".  i:a
+"Enter second number: ". i:b
+'a'b+.~n
+
+"Enter a string: ". si:s
+'s.~n;
+
